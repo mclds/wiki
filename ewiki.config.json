@@ -1,6 +1,6 @@
 {
   "sources": ["./**/*.md"],
-  "plugins": ["./plugins/**/*.js" ],
+  "plugins": ["./plugins/**/*.js", "ewiki"],
   "output_folder": "./dist",
   "ignore_sources": ["./**/*.ignore.md", "./node_modules/**/*.md"],
   "ignore_plugins": ["./**/*.ignore.js", "./node_modules/**/*.js"],
@@ -8,15 +8,18 @@
   "styles": ["./style.css"],
   "markdown_mount": ".markdown-body",
   "markdown_it_config": {},
-  "extra-widget-plugin": {
-    "sidebar-url-base": "https://wiki.mclds.com/",
-    "header-links": [   {
+  "server": {
+    "port": 3019,
+    "base_url": "/"
+  },
+  "extra_widget_plugin": {
+    "header_links": [
+      {
         "text": "光梦官网",
         "href": "https://mclds.com/"
       }
     ],
-    "sidebar-links-group": [ 
-    ],
-    "footer-template": "./templates/footer.html"
+    "sidebar_links_group": [],
+    "footer_template": "./templates/footer.html"
   }
 }

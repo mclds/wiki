@@ -1,4 +1,157 @@
-/*!
+<!DOCTYPE html><html lang="en"><head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>光梦百科 - 光梦服务器</title>
+        <link rel="icon" href="/favicon.png">
+	<script>window.__ewiki_info__ = JSON.parse(decodeURIComponent("%7B%22dirname%22%3A%22%2F%E7%99%BE%E7%A7%91%22%2C%22filename%22%3A%22%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8F%92%E4%BB%B6.md%22%2C%22filepath%22%3A%22%2F%E7%99%BE%E7%A7%91%2F%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8F%92%E4%BB%B6.md%22%2C%22dest%22%3A%22%2Fdist%2F%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8F%92%E4%BB%B6.html%22%2C%22create_at%22%3A1720967317307%2C%22update_at%22%3A1721023845019%2C%22file_content%22%3A%22---ewiki-config---%5Cnsidebar%3D%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8F%92%E4%BB%B6%5Cncreate_at%3D2024%2F7%2F14%2022%3A28%3A37%5Cnupdate_at%3D2024%2F7%2F15%2014%3A10%3A45%5Cn---ewiki-config---%5Cn%20%5Cn%23%20%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8F%92%E4%BB%B6%5Cn%22%2C%22markdown_context%22%3A%7B%22metadata%22%3A%7B%22sidebar%22%3A%22%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8F%92%E4%BB%B6%22%2C%22create_at%22%3A%222024%2F7%2F14%2022%3A28%3A37%22%2C%22update_at%22%3A%222024%2F7%2F15%2014%3A10%3A45%22%7D%2C%22content%22%3A%22%5Cn%20%5Cn%23%20%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8F%92%E4%BB%B6%5Cn%22%7D%7D"));</script><script>window.__ewiki_config__ = JSON.parse(decodeURIComponent("%7B%22base_url%22%3A%22%2F%22%7D"));</script><meta name="description" content=""><meta name="keywords" content=""><style>html * {  letter-spacing: 1px;  line-height: 24px;}</style><style>blockquote.custom {
+	font-size: 14px;
+	color: #585858;
+	padding: 4px 12px;
+	border-left: 5px solid #b6b6b6;
+	margin: 12px 0px;
+	background: #f8f8f8;
+}
+
+.container-warn > p,
+.container-info > p,
+.container-success > p,
+.container-error > p {
+	margin-block-start: 0px;
+	margin-block-end: 0px;
+}
+
+.container-warn {
+	font-size: 14px;
+	border-left: 5px solid rgb(247 211 95);
+	background-color: rgb(255 250 235);
+	padding: 4px 12px;
+	margin: 12px 0px;
+}
+
+.container-info {
+	font-size: 14px;
+	border-left: 5px solid rgb(149 195 249);
+	background-color: rgb(245 250 255);
+	padding: 4px 12px;
+	margin: 12px 0px;
+}
+
+.container-success {
+	font-size: 14px;
+	border-left: 5px solid rgb(163 213 170);
+	background-color: rgb(248 255 249);
+	padding: 4px 12px;
+	margin: 12px 0px;
+}
+
+.container-error {
+	font-size: 14px;
+	border-left: 5px solid rgb(255, 149, 145);
+	background-color: rgb(255, 240, 239);
+	padding: 4px 12px;
+	margin: 12px 0px;
+}
+</style><style>/*!
+  Theme: Github
+  Author: Defman21
+  License: ~ MIT (or more permissive) [via base16-schemes-source]
+  Maintainer: @highlightjs/core-team
+  Version: 2021.09.0
+*/
+pre code.hljs {
+	display: block;
+	overflow-x: auto;
+	padding: 1em;
+}
+code.hljs {
+	padding: 3px 5px;
+}
+.hljs {
+	color: #333;
+	background: #fff;
+}
+.hljs ::selection,
+.hljs::selection {
+	background-color: #c8c8fa;
+	color: #333;
+}
+.hljs-comment {
+	color: #969896;
+}
+.hljs-tag {
+	color: #e8e8e8;
+}
+.hljs-operator,
+.hljs-punctuation,
+.hljs-subst {
+	color: #333;
+}
+.hljs-operator {
+	opacity: 0.7;
+}
+.hljs-bullet,
+.hljs-deletion,
+.hljs-name,
+.hljs-selector-tag,
+.hljs-template-variable,
+.hljs-variable {
+	color: #ed6a43;
+}
+.hljs-attr,
+.hljs-link,
+.hljs-literal,
+.hljs-number,
+.hljs-symbol,
+.hljs-variable.constant_ {
+	color: #0086b3;
+}
+.hljs-class .hljs-title,
+.hljs-title,
+.hljs-title.class_ {
+	color: #795da3;
+}
+.hljs-strong {
+	font-weight: 700;
+	color: #795da3;
+}
+.hljs-addition,
+.hljs-built_in,
+.hljs-code,
+.hljs-doctag,
+.hljs-keyword.hljs-atrule,
+.hljs-quote,
+.hljs-regexp,
+.hljs-string,
+.hljs-title.class_.inherited__ {
+	color: #183691;
+}
+.hljs-attribute,
+.hljs-function .hljs-title,
+.hljs-section,
+.hljs-title.function_,
+.ruby .hljs-property {
+	color: #795da3;
+}
+.diff .hljs-meta,
+.hljs-keyword,
+.hljs-template-tag,
+.hljs-type {
+	color: #a71d5d;
+}
+.hljs-emphasis {
+	color: #a71d5d;
+	font-style: italic;
+}
+.hljs-meta,
+.hljs-meta .hljs-keyword,
+.hljs-meta .hljs-string {
+	color: #333;
+}
+.hljs-meta .hljs-keyword,
+.hljs-meta-keyword {
+	font-weight: 700;
+}
+</style><style>/*!
  * Bootstrap v3.4.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
@@ -6969,3 +7122,359 @@ button.close {
 	}
 }
 /*# sourceMappingURL=bootstrap.min.css.map */
+</style><style>img {
+	max-width: 100%;
+}
+
+pre.custom {
+	background: #f8f8f8;
+}
+
+h1,
+h2 {
+	border-bottom: 2px solid #cecece;
+	padding-bottom: 4px;
+	margin-bottom: 12px;
+	font-family: 'Linux Libertine', 'Georgia', 'Times', 'Source Serif Pro', serif !important;
+}
+
+mark {
+	background-color: #f5e838 !important;
+	color: #000;
+}
+</style><script>window.__ewiki_files_info__ = JSON.parse(decodeURIComponent("%5B%7B%22dirname%22%3A%22%2F%E7%99%BE%E7%A7%91%22%2C%22filename%22%3A%22%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8F%92%E4%BB%B6.md%22%2C%22filepath%22%3A%22%2F%E7%99%BE%E7%A7%91%2F%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8F%92%E4%BB%B6.md%22%2C%22dest%22%3A%22%2Fdist%2F%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8F%92%E4%BB%B6.html%22%2C%22create_at%22%3A1720967317307%2C%22update_at%22%3A1721023845019%2C%22file_content%22%3A%22---ewiki-config---%5Cnsidebar%3D%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8F%92%E4%BB%B6%5Cncreate_at%3D2024%2F7%2F14%2022%3A28%3A37%5Cnupdate_at%3D2024%2F7%2F15%2014%3A10%3A45%5Cn---ewiki-config---%5Cn%20%5Cn%23%20%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8F%92%E4%BB%B6%5Cn%22%2C%22markdown_context%22%3A%7B%22metadata%22%3A%7B%22sidebar%22%3A%22%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8F%92%E4%BB%B6%22%2C%22create_at%22%3A%222024%2F7%2F14%2022%3A28%3A37%22%2C%22update_at%22%3A%222024%2F7%2F15%2014%3A11%3A32%22%7D%2C%22content%22%3A%22%5Cn%20%5Cn%23%20%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8F%92%E4%BB%B6%5Cn%22%7D%2C%22text%22%3A%22%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8F%92%E4%BB%B6%5Cn%22%7D%2C%7B%22dirname%22%3A%22.%22%2C%22filename%22%3A%22index.md%22%2C%22filepath%22%3A%22%2Findex.md%22%2C%22dest%22%3A%22%2Findex.html%22%2C%22create_at%22%3A1720964369836%2C%22update_at%22%3A1721023881422%2C%22file_content%22%3A%22---ewiki-config---%5Cncreate_at%3D7%2F14%2F2024%2C%207%3A44%3A26%20PM%5Cnupdate_at%3D2024%2F7%2F15%2014%3A08%3A01%5Cnsidebar%3D%E5%85%89%E6%A2%A6%E7%99%BE%E7%A7%91%5Cn---ewiki-config---%5Cn%20%5Cn%5Cn%23%20%E5%85%89%E6%A2%A6%5Cn%5Cn%3E%20light-dream%20(%E5%85%89%E6%98%8E%E6%A2%A6%E6%83%B3%EF%BC%8C%E5%85%89%E4%B9%8B%E6%A2%A6%E5%A2%83%EF%BC%8C%E7%AE%80%E7%A7%B0%E5%85%89%E6%A2%A6)%5Cn%3E%20%E5%85%89%E6%A2%A6%E5%88%9B%E7%AB%8B%E5%B7%B2%E6%9C%89%E5%8D%81%E5%B9%B4%E4%B9%8B%E4%B9%85%EF%BC%8C%E5%89%8D%E8%BA%AB%E6%98%AF%E4%B8%80%E4%B8%AA%E5%B0%8F%E6%9C%8D%EF%BC%88%E6%A2%A6%E6%AE%87%E4%B9%8B%E6%AE%9B%EF%BC%89%E5%8F%91%E5%B1%95%E8%80%8C%E6%9D%A5%EF%BC%8C%E5%90%8E%E7%BB%AD%E5%9B%A2%E9%98%9F%E5%91%BD%E5%90%8D%E4%B8%BA%20light%20dream%20studio%20(LDS)%5Cn%3E%20%E7%BB%8F%E5%8E%86%E4%BA%86%E5%8D%81%E5%B9%B4%E7%9A%84%E5%88%86%E5%88%86%E5%90%88%E5%90%88%EF%BC%8C%E5%9B%A0%E4%B8%BA%E5%AD%A6%E4%B8%9A%E7%B9%81%E5%BF%99%E7%AD%89%E5%90%84%E7%A7%8D%E5%8E%9F%E5%9B%A0%E5%AF%BC%E8%87%B4%E6%B2%A1%E8%90%BD%EF%BC%8C%E5%A6%82%E4%BB%8A%E8%85%90%E7%AB%B9%E9%87%8D%E5%90%AF%E5%85%89%E6%A2%A6%E8%AE%A1%E5%88%92%EF%BC%8C%E5%8D%B7%E5%9C%9F%E9%87%8D%E6%9D%A5%E3%80%82%5Cn%5Cn!%5Bimg%5D(%2Fassets%2Fcover.png)%20%20%20%5Cn%5Cn%23%23%20%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%9F%BA%E6%9C%AC%E4%BF%A1%E6%81%AF%20%5Cn%20%5Cn%5Cn%5Cn%7C%20--------------%20%7C%20------------------------%20%7C%20------------------------------------%20%7C%5Cn%7C%20%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%9F%9F%E5%90%8D(ip)%20%7C%20%60play.mclds.com%60%20%20%20%20%20%20%20%20%20%7C%20%E6%B8%B8%E6%88%8F%E4%B8%AD%E8%BE%93%E5%85%A5%EF%BC%8C%E4%B8%8D%E7%94%A8%E5%A1%AB%E7%AB%AF%E5%8F%A3%E5%8F%B7%20%20%20%20%20%20%20%20%20%20%20%20%20%7C%5Cn%7C%20%E7%B1%BB%E5%9E%8B%20%20%20%20%20%20%20%20%20%20%20%7C%20%60%E5%85%AC%E7%9B%8A%E6%9C%8D%60%20%60java%60%20%60%E6%8F%92%E4%BB%B6%E6%9C%8D%60%20%7C%20%E6%9C%8D%E5%8A%A1%E7%AB%AF%E4%B8%BA%20java%20paper%20%E6%8F%92%E4%BB%B6%E6%9C%8D%20%20%20%20%20%20%20%20%20%20%20%7C%5Cn%7C%20%E6%94%AF%E6%8C%81%E7%89%88%E6%9C%AC%20%20%20%20%20%20%20%7C%201.20%20-%201.20.6%20%20%20%20%20%20%20%20%20%20%20%20%7C%20%E4%B8%8D%E6%94%AF%E6%8C%81%E4%BD%8E%E7%89%88%E6%9C%AC%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7C%5Cn%7C%20%E4%BA%BA%E6%95%B0%E4%B8%8A%E9%99%90%20%20%20%20%20%20%20%7C%20200%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7C%20%E6%9A%82%E6%97%B6%EF%BC%8C%E5%90%8E%E7%BB%AD%E9%9C%80%E8%A6%81%E7%9C%8B%E6%9C%8D%E5%8A%A1%E5%99%A8%E8%83%BD%E5%90%A6%E6%92%91%E4%BD%8F%20%20%20%20%20%20%20%7C%5Cn%7C%20%E6%AD%A3%E7%89%88%E9%AA%8C%E8%AF%81%20%20%20%20%20%20%20%7C%20%E5%BC%80%E5%90%AF%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7C%20%E4%B8%80%E7%9B%B4%E5%BC%80%E5%90%AF%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7C%5Cn%7C%20%E7%99%BD%E5%90%8D%E5%8D%95%20%20%20%20%20%20%20%20%20%7C%20%E5%BC%80%E5%90%AF%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7C%20%E5%8A%A0%E7%BE%A4%E7%94%B3%E8%AF%B7%E7%99%BD%E5%90%8D%E5%8D%95%EF%BC%8C%E5%8F%AA%E9%9C%80%E7%AE%80%E5%8D%95%E5%AE%A1%E6%A0%B8%E5%8D%B3%E5%8F%AF%20%20%20%20%20%7C%5Cn%7C%20QQ%20%E7%BE%A4%20%20%20%20%20%20%20%20%20%20%7C%20%60876616313%60%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7C%20%E6%9C%89%E9%97%AE%E9%A2%98%E5%8F%AF%E4%BB%A5%E5%9C%A8%E7%BE%A4%E9%87%8C%E4%BA%A4%E6%B5%81%E6%88%96%E8%80%85%E8%89%BE%E7%89%B9%E7%BE%A4%E4%B8%BB%E6%8F%90%E9%97%AE%20%7C%5Cn%5Cn%23%23%20%E6%A0%B8%E5%BF%83%E7%8E%A9%E6%B3%95%5Cn%5Cn-%20**%E5%8E%9F%E7%89%88%E7%94%9F%E5%AD%98**%EF%BC%9A%20%E5%B0%86%E4%BF%9D%E6%8C%81%60%E4%B8%8E%E5%9B%BD%E9%99%85%E7%89%88%E5%90%8C%E6%AD%A5%E6%9B%B4%E6%96%B0%60%EF%BC%88%E5%B0%BD%E9%87%8F%EF%BC%89%EF%BC%8C%E4%B8%8E%E5%8E%9F%E7%89%88%E4%B8%80%E8%87%B4%E7%9A%84%E5%8E%9F%E7%89%88%E7%94%9F%E5%AD%98%E7%8E%A9%E6%B3%95%EF%BC%8C%E5%B9%B6%E4%B8%94%E7%94%B1%E6%AD%A4%E6%8B%93%E5%B1%95%E5%87%BA%E6%9B%B4%E5%A4%9A%E7%9A%84%E7%8E%A9%E6%B3%95%EF%BC%88%E5%9C%B0%E5%BD%A2%EF%BC%8C%E5%86%92%E9%99%A9%EF%BC%8C%E5%BD%A9%E8%9B%8B%E7%AD%89%EF%BC%89%E3%80%82%5Cn-%20**%E8%87%AA%E7%A0%94%E6%8F%92%E4%BB%B6**%EF%BC%9A%20%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8F%92%E4%BB%B6%20%60%E5%85%A8%E9%83%A8%60%20%E7%94%B1%E8%85%90%E7%AB%B9%E8%87%AA%E7%A0%94%EF%BC%8C%E6%8F%90%E4%BE%9B%E6%9B%B4%E5%A4%9A%E7%9A%84%E7%8E%A9%E6%B3%95%EF%BC%8C%E6%9B%B4%E5%A5%BD%E7%9A%84%E4%BD%93%E9%AA%8C%E3%80%82%5Cn%20%20%20%20-%20**%E8%87%AA%E7%A0%94%20UI**%EF%BC%9A%20%E8%87%AA%E7%A0%94%20UI%EF%BC%8C%E5%9F%BA%E6%9C%AC%E4%B8%8A%E6%AF%8F%E4%B8%AA%E6%8F%92%E4%BB%B6%E9%83%BD%E6%9C%89UI%EF%BC%8C%E6%8F%90%E4%BE%9B%E6%9B%B4%E5%A5%BD%E7%9A%84%E4%BA%A4%E4%BA%92%E4%BD%93%E9%AA%8C%EF%BC%8C%E6%9B%B4%E5%A5%BD%E7%9A%84%E8%A7%86%E8%A7%89%E6%95%88%E6%9E%9C%EF%BC%8C%E6%9B%B4%E5%A5%BD%E7%9A%84%E6%93%8D%E4%BD%9C%E4%BD%93%E9%AA%8C%E3%80%82%5Cn%20%20%20%20-%20**%E9%A2%86%E5%9C%B0%2F%E9%A2%86%E5%9F%9F%E6%8F%92%E4%BB%B6**%3A%20%20%E6%9C%8D%E5%8A%A1%E5%99%A8%E8%87%AA%E7%A0%94%E9%A2%86%E5%9F%9F%E6%8F%92%E4%BB%B6%EF%BC%8C%E9%80%9A%E8%BF%87%60%E5%8C%BA%E5%9D%97%60%E6%93%8D%E4%BD%9C%E9%A2%86%E5%9F%9F%EF%BC%8C%E5%8F%AF%E4%BB%A5%E5%AF%B9%E5%9B%9B%E5%91%A8%E6%8B%93%E5%B1%95%E4%B8%8E%E7%A7%BB%E9%99%A4%EF%BC%8C%E6%9C%89%60%E9%A2%86%E5%9F%9F%E4%BF%9D%E6%8A%A4%60%EF%BC%8C%60%E9%A2%86%E5%9F%9F%E6%98%BE%E7%A4%BA%60%EF%BC%8C%E6%B7%BB%E5%8A%A0%60%E9%A2%86%E5%9F%9F%E6%88%90%E5%91%98%60%EF%BC%8C%60%E6%88%90%E5%91%98%E6%9D%83%E9%99%90%60%E7%AD%89%E4%B8%80%E7%B3%BB%E5%88%97%E5%8A%9F%E8%83%BD%E3%80%82%5Cn%20%20%20%20-%20**%E7%BB%8F%E6%B5%8E%E6%8F%92%E4%BB%B6**%3A%20%E7%94%B1%E4%BA%8E%E5%85%A8%E9%83%A8%E6%8F%92%E4%BB%B6%E9%83%BD%E7%94%B1%E6%88%91%E4%BB%AC%E8%87%AA%E7%A0%94%EF%BC%8C%E6%89%80%E4%BB%A5%E8%83%BD%E5%A4%9F%E6%9B%B4%E5%A5%BD%E6%8E%A7%E5%88%B6%E7%BB%8F%E6%B5%8E%EF%BC%8C%E6%9B%B4%E5%A5%BD%E7%9A%84%E5%B9%B3%E8%A1%A1%E6%B8%B8%E6%88%8F%EF%BC%8C%E6%9B%B4%E5%A5%BD%E7%9A%84%E6%8E%A7%E5%88%B6%E6%B8%B8%E6%88%8F%E8%8A%82%E5%A5%8F%E3%80%82%5Cn%20%20%20%20-%20%20%E6%9B%B4%E5%A4%9A%E6%8F%92%E4%BB%B6%E8%AF%B7%E5%89%8D%E5%BE%80%20%60%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8F%92%E4%BB%B6%60%20%E9%98%85%E8%AF%BB%E3%80%82%5Cn-%20**%E7%A4%BE%E5%8C%BA%E5%BB%BA%E8%AE%BE**%EF%BC%9A%20%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%B0%86%E4%BC%9A%E5%BB%BA%E8%AE%BE%E4%B8%80%E4%B8%AA%E7%A4%BE%E5%8C%BA%EF%BC%8C%E8%AE%A9%E7%8E%A9%E5%AE%B6%E5%8F%AF%E4%BB%A5%E5%9C%A8%E8%BF%99%E9%87%8C%E4%BA%A4%E6%B5%81%EF%BC%8C%E5%BB%BA%E8%AE%BE%EF%BC%8C%E5%88%86%E4%BA%AB%EF%BC%8C%E5%88%9B%E9%80%A0%EF%BC%8C%E4%B8%80%E8%B5%B7%E7%8E%A9%E8%80%8D%E3%80%82%E7%9B%AE%E5%89%8D%E5%B7%B2%E6%9C%89%E5%AE%98%E7%BD%91%EF%BC%8CQ%20%E7%BE%A4%EF%BC%8C%E7%99%BE%E7%A7%91%E7%AD%89%E5%9F%BA%E7%A1%80%E5%BB%BA%E8%AE%BE%E3%80%82%5Cn%22%2C%22markdown_context%22%3A%7B%22metadata%22%3A%7B%22create_at%22%3A%227%2F14%2F2024%2C%207%3A44%3A26%20PM%22%2C%22update_at%22%3A%222024%2F7%2F15%2014%3A11%3A32%22%2C%22sidebar%22%3A%22%E5%85%89%E6%A2%A6%E7%99%BE%E7%A7%91%22%7D%2C%22content%22%3A%22%5Cn%20%5Cn%5Cn%23%20%E5%85%89%E6%A2%A6%5Cn%5Cn%3E%20light-dream%20(%E5%85%89%E6%98%8E%E6%A2%A6%E6%83%B3%EF%BC%8C%E5%85%89%E4%B9%8B%E6%A2%A6%E5%A2%83%EF%BC%8C%E7%AE%80%E7%A7%B0%E5%85%89%E6%A2%A6)%5Cn%3E%20%E5%85%89%E6%A2%A6%E5%88%9B%E7%AB%8B%E5%B7%B2%E6%9C%89%E5%8D%81%E5%B9%B4%E4%B9%8B%E4%B9%85%EF%BC%8C%E5%89%8D%E8%BA%AB%E6%98%AF%E4%B8%80%E4%B8%AA%E5%B0%8F%E6%9C%8D%EF%BC%88%E6%A2%A6%E6%AE%87%E4%B9%8B%E6%AE%9B%EF%BC%89%E5%8F%91%E5%B1%95%E8%80%8C%E6%9D%A5%EF%BC%8C%E5%90%8E%E7%BB%AD%E5%9B%A2%E9%98%9F%E5%91%BD%E5%90%8D%E4%B8%BA%20light%20dream%20studio%20(LDS)%5Cn%3E%20%E7%BB%8F%E5%8E%86%E4%BA%86%E5%8D%81%E5%B9%B4%E7%9A%84%E5%88%86%E5%88%86%E5%90%88%E5%90%88%EF%BC%8C%E5%9B%A0%E4%B8%BA%E5%AD%A6%E4%B8%9A%E7%B9%81%E5%BF%99%E7%AD%89%E5%90%84%E7%A7%8D%E5%8E%9F%E5%9B%A0%E5%AF%BC%E8%87%B4%E6%B2%A1%E8%90%BD%EF%BC%8C%E5%A6%82%E4%BB%8A%E8%85%90%E7%AB%B9%E9%87%8D%E5%90%AF%E5%85%89%E6%A2%A6%E8%AE%A1%E5%88%92%EF%BC%8C%E5%8D%B7%E5%9C%9F%E9%87%8D%E6%9D%A5%E3%80%82%5Cn%5Cn!%5Bimg%5D(%2Fassets%2Fcover.png)%20%20%20%5Cn%5Cn%23%23%20%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%9F%BA%E6%9C%AC%E4%BF%A1%E6%81%AF%20%5Cn%20%5Cn%5Cn%5Cn%7C%20--------------%20%7C%20------------------------%20%7C%20------------------------------------%20%7C%5Cn%7C%20%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%9F%9F%E5%90%8D(ip)%20%7C%20%60play.mclds.com%60%20%20%20%20%20%20%20%20%20%7C%20%E6%B8%B8%E6%88%8F%E4%B8%AD%E8%BE%93%E5%85%A5%EF%BC%8C%E4%B8%8D%E7%94%A8%E5%A1%AB%E7%AB%AF%E5%8F%A3%E5%8F%B7%20%20%20%20%20%20%20%20%20%20%20%20%20%7C%5Cn%7C%20%E7%B1%BB%E5%9E%8B%20%20%20%20%20%20%20%20%20%20%20%7C%20%60%E5%85%AC%E7%9B%8A%E6%9C%8D%60%20%60java%60%20%60%E6%8F%92%E4%BB%B6%E6%9C%8D%60%20%7C%20%E6%9C%8D%E5%8A%A1%E7%AB%AF%E4%B8%BA%20java%20paper%20%E6%8F%92%E4%BB%B6%E6%9C%8D%20%20%20%20%20%20%20%20%20%20%20%7C%5Cn%7C%20%E6%94%AF%E6%8C%81%E7%89%88%E6%9C%AC%20%20%20%20%20%20%20%7C%201.20%20-%201.20.6%20%20%20%20%20%20%20%20%20%20%20%20%7C%20%E4%B8%8D%E6%94%AF%E6%8C%81%E4%BD%8E%E7%89%88%E6%9C%AC%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7C%5Cn%7C%20%E4%BA%BA%E6%95%B0%E4%B8%8A%E9%99%90%20%20%20%20%20%20%20%7C%20200%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7C%20%E6%9A%82%E6%97%B6%EF%BC%8C%E5%90%8E%E7%BB%AD%E9%9C%80%E8%A6%81%E7%9C%8B%E6%9C%8D%E5%8A%A1%E5%99%A8%E8%83%BD%E5%90%A6%E6%92%91%E4%BD%8F%20%20%20%20%20%20%20%7C%5Cn%7C%20%E6%AD%A3%E7%89%88%E9%AA%8C%E8%AF%81%20%20%20%20%20%20%20%7C%20%E5%BC%80%E5%90%AF%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7C%20%E4%B8%80%E7%9B%B4%E5%BC%80%E5%90%AF%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7C%5Cn%7C%20%E7%99%BD%E5%90%8D%E5%8D%95%20%20%20%20%20%20%20%20%20%7C%20%E5%BC%80%E5%90%AF%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7C%20%E5%8A%A0%E7%BE%A4%E7%94%B3%E8%AF%B7%E7%99%BD%E5%90%8D%E5%8D%95%EF%BC%8C%E5%8F%AA%E9%9C%80%E7%AE%80%E5%8D%95%E5%AE%A1%E6%A0%B8%E5%8D%B3%E5%8F%AF%20%20%20%20%20%7C%5Cn%7C%20QQ%20%E7%BE%A4%20%20%20%20%20%20%20%20%20%20%7C%20%60876616313%60%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7C%20%E6%9C%89%E9%97%AE%E9%A2%98%E5%8F%AF%E4%BB%A5%E5%9C%A8%E7%BE%A4%E9%87%8C%E4%BA%A4%E6%B5%81%E6%88%96%E8%80%85%E8%89%BE%E7%89%B9%E7%BE%A4%E4%B8%BB%E6%8F%90%E9%97%AE%20%7C%5Cn%5Cn%23%23%20%E6%A0%B8%E5%BF%83%E7%8E%A9%E6%B3%95%5Cn%5Cn-%20**%E5%8E%9F%E7%89%88%E7%94%9F%E5%AD%98**%EF%BC%9A%20%E5%B0%86%E4%BF%9D%E6%8C%81%60%E4%B8%8E%E5%9B%BD%E9%99%85%E7%89%88%E5%90%8C%E6%AD%A5%E6%9B%B4%E6%96%B0%60%EF%BC%88%E5%B0%BD%E9%87%8F%EF%BC%89%EF%BC%8C%E4%B8%8E%E5%8E%9F%E7%89%88%E4%B8%80%E8%87%B4%E7%9A%84%E5%8E%9F%E7%89%88%E7%94%9F%E5%AD%98%E7%8E%A9%E6%B3%95%EF%BC%8C%E5%B9%B6%E4%B8%94%E7%94%B1%E6%AD%A4%E6%8B%93%E5%B1%95%E5%87%BA%E6%9B%B4%E5%A4%9A%E7%9A%84%E7%8E%A9%E6%B3%95%EF%BC%88%E5%9C%B0%E5%BD%A2%EF%BC%8C%E5%86%92%E9%99%A9%EF%BC%8C%E5%BD%A9%E8%9B%8B%E7%AD%89%EF%BC%89%E3%80%82%5Cn-%20**%E8%87%AA%E7%A0%94%E6%8F%92%E4%BB%B6**%EF%BC%9A%20%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8F%92%E4%BB%B6%20%60%E5%85%A8%E9%83%A8%60%20%E7%94%B1%E8%85%90%E7%AB%B9%E8%87%AA%E7%A0%94%EF%BC%8C%E6%8F%90%E4%BE%9B%E6%9B%B4%E5%A4%9A%E7%9A%84%E7%8E%A9%E6%B3%95%EF%BC%8C%E6%9B%B4%E5%A5%BD%E7%9A%84%E4%BD%93%E9%AA%8C%E3%80%82%5Cn%20%20%20%20-%20**%E8%87%AA%E7%A0%94%20UI**%EF%BC%9A%20%E8%87%AA%E7%A0%94%20UI%EF%BC%8C%E5%9F%BA%E6%9C%AC%E4%B8%8A%E6%AF%8F%E4%B8%AA%E6%8F%92%E4%BB%B6%E9%83%BD%E6%9C%89UI%EF%BC%8C%E6%8F%90%E4%BE%9B%E6%9B%B4%E5%A5%BD%E7%9A%84%E4%BA%A4%E4%BA%92%E4%BD%93%E9%AA%8C%EF%BC%8C%E6%9B%B4%E5%A5%BD%E7%9A%84%E8%A7%86%E8%A7%89%E6%95%88%E6%9E%9C%EF%BC%8C%E6%9B%B4%E5%A5%BD%E7%9A%84%E6%93%8D%E4%BD%9C%E4%BD%93%E9%AA%8C%E3%80%82%5Cn%20%20%20%20-%20**%E9%A2%86%E5%9C%B0%2F%E9%A2%86%E5%9F%9F%E6%8F%92%E4%BB%B6**%3A%20%20%E6%9C%8D%E5%8A%A1%E5%99%A8%E8%87%AA%E7%A0%94%E9%A2%86%E5%9F%9F%E6%8F%92%E4%BB%B6%EF%BC%8C%E9%80%9A%E8%BF%87%60%E5%8C%BA%E5%9D%97%60%E6%93%8D%E4%BD%9C%E9%A2%86%E5%9F%9F%EF%BC%8C%E5%8F%AF%E4%BB%A5%E5%AF%B9%E5%9B%9B%E5%91%A8%E6%8B%93%E5%B1%95%E4%B8%8E%E7%A7%BB%E9%99%A4%EF%BC%8C%E6%9C%89%60%E9%A2%86%E5%9F%9F%E4%BF%9D%E6%8A%A4%60%EF%BC%8C%60%E9%A2%86%E5%9F%9F%E6%98%BE%E7%A4%BA%60%EF%BC%8C%E6%B7%BB%E5%8A%A0%60%E9%A2%86%E5%9F%9F%E6%88%90%E5%91%98%60%EF%BC%8C%60%E6%88%90%E5%91%98%E6%9D%83%E9%99%90%60%E7%AD%89%E4%B8%80%E7%B3%BB%E5%88%97%E5%8A%9F%E8%83%BD%E3%80%82%5Cn%20%20%20%20-%20**%E7%BB%8F%E6%B5%8E%E6%8F%92%E4%BB%B6**%3A%20%E7%94%B1%E4%BA%8E%E5%85%A8%E9%83%A8%E6%8F%92%E4%BB%B6%E9%83%BD%E7%94%B1%E6%88%91%E4%BB%AC%E8%87%AA%E7%A0%94%EF%BC%8C%E6%89%80%E4%BB%A5%E8%83%BD%E5%A4%9F%E6%9B%B4%E5%A5%BD%E6%8E%A7%E5%88%B6%E7%BB%8F%E6%B5%8E%EF%BC%8C%E6%9B%B4%E5%A5%BD%E7%9A%84%E5%B9%B3%E8%A1%A1%E6%B8%B8%E6%88%8F%EF%BC%8C%E6%9B%B4%E5%A5%BD%E7%9A%84%E6%8E%A7%E5%88%B6%E6%B8%B8%E6%88%8F%E8%8A%82%E5%A5%8F%E3%80%82%5Cn%20%20%20%20-%20%20%E6%9B%B4%E5%A4%9A%E6%8F%92%E4%BB%B6%E8%AF%B7%E5%89%8D%E5%BE%80%20%60%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8F%92%E4%BB%B6%60%20%E9%98%85%E8%AF%BB%E3%80%82%5Cn-%20**%E7%A4%BE%E5%8C%BA%E5%BB%BA%E8%AE%BE**%EF%BC%9A%20%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%B0%86%E4%BC%9A%E5%BB%BA%E8%AE%BE%E4%B8%80%E4%B8%AA%E7%A4%BE%E5%8C%BA%EF%BC%8C%E8%AE%A9%E7%8E%A9%E5%AE%B6%E5%8F%AF%E4%BB%A5%E5%9C%A8%E8%BF%99%E9%87%8C%E4%BA%A4%E6%B5%81%EF%BC%8C%E5%BB%BA%E8%AE%BE%EF%BC%8C%E5%88%86%E4%BA%AB%EF%BC%8C%E5%88%9B%E9%80%A0%EF%BC%8C%E4%B8%80%E8%B5%B7%E7%8E%A9%E8%80%8D%E3%80%82%E7%9B%AE%E5%89%8D%E5%B7%B2%E6%9C%89%E5%AE%98%E7%BD%91%EF%BC%8CQ%20%E7%BE%A4%EF%BC%8C%E7%99%BE%E7%A7%91%E7%AD%89%E5%9F%BA%E7%A1%80%E5%BB%BA%E8%AE%BE%E3%80%82%5Cn%22%7D%2C%22text%22%3A%22%E5%85%89%E6%A2%A6%5Cn%5Cnlight-dream%20(%E5%85%89%E6%98%8E%E6%A2%A6%E6%83%B3%EF%BC%8C%E5%85%89%E4%B9%8B%E6%A2%A6%E5%A2%83%EF%BC%8C%E7%AE%80%E7%A7%B0%E5%85%89%E6%A2%A6)%5Cn%E5%85%89%E6%A2%A6%E5%88%9B%E7%AB%8B%E5%B7%B2%E6%9C%89%E5%8D%81%E5%B9%B4%E4%B9%8B%E4%B9%85%EF%BC%8C%E5%89%8D%E8%BA%AB%E6%98%AF%E4%B8%80%E4%B8%AA%E5%B0%8F%E6%9C%8D%EF%BC%88%E6%A2%A6%E6%AE%87%E4%B9%8B%E6%AE%9B%EF%BC%89%E5%8F%91%E5%B1%95%E8%80%8C%E6%9D%A5%EF%BC%8C%E5%90%8E%E7%BB%AD%E5%9B%A2%E9%98%9F%E5%91%BD%E5%90%8D%E4%B8%BA%20light%20dream%20studio%20(LDS)%5Cn%E7%BB%8F%E5%8E%86%E4%BA%86%E5%8D%81%E5%B9%B4%E7%9A%84%E5%88%86%E5%88%86%E5%90%88%E5%90%88%EF%BC%8C%E5%9B%A0%E4%B8%BA%E5%AD%A6%E4%B8%9A%E7%B9%81%E5%BF%99%E7%AD%89%E5%90%84%E7%A7%8D%E5%8E%9F%E5%9B%A0%E5%AF%BC%E8%87%B4%E6%B2%A1%E8%90%BD%EF%BC%8C%E5%A6%82%E4%BB%8A%E8%85%90%E7%AB%B9%E9%87%8D%E5%90%AF%E5%85%89%E6%A2%A6%E8%AE%A1%E5%88%92%EF%BC%8C%E5%8D%B7%E5%9C%9F%E9%87%8D%E6%9D%A5%E3%80%82%5Cn%5Cn%5Cn%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%9F%BA%E6%9C%AC%E4%BF%A1%E6%81%AF%5Cn%7C%20--------------%20%7C%20------------------------%20%7C%20------------------------------------%20%7C%5Cn%7C%20%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%9F%9F%E5%90%8D(ip)%20%7C%20play.mclds.com%20%20%20%20%20%20%20%20%20%7C%20%E6%B8%B8%E6%88%8F%E4%B8%AD%E8%BE%93%E5%85%A5%EF%BC%8C%E4%B8%8D%E7%94%A8%E5%A1%AB%E7%AB%AF%E5%8F%A3%E5%8F%B7%20%20%20%20%20%20%20%20%20%20%20%20%20%7C%5Cn%7C%20%E7%B1%BB%E5%9E%8B%20%20%20%20%20%20%20%20%20%20%20%7C%20%E5%85%AC%E7%9B%8A%E6%9C%8D%20java%20%E6%8F%92%E4%BB%B6%E6%9C%8D%20%7C%20%E6%9C%8D%E5%8A%A1%E7%AB%AF%E4%B8%BA%20java%20paper%20%E6%8F%92%E4%BB%B6%E6%9C%8D%20%20%20%20%20%20%20%20%20%20%20%7C%5Cn%7C%20%E6%94%AF%E6%8C%81%E7%89%88%E6%9C%AC%20%20%20%20%20%20%20%7C%201.20%20-%201.20.6%20%20%20%20%20%20%20%20%20%20%20%20%7C%20%E4%B8%8D%E6%94%AF%E6%8C%81%E4%BD%8E%E7%89%88%E6%9C%AC%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7C%5Cn%7C%20%E4%BA%BA%E6%95%B0%E4%B8%8A%E9%99%90%20%20%20%20%20%20%20%7C%20200%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7C%20%E6%9A%82%E6%97%B6%EF%BC%8C%E5%90%8E%E7%BB%AD%E9%9C%80%E8%A6%81%E7%9C%8B%E6%9C%8D%E5%8A%A1%E5%99%A8%E8%83%BD%E5%90%A6%E6%92%91%E4%BD%8F%20%20%20%20%20%20%20%7C%5Cn%7C%20%E6%AD%A3%E7%89%88%E9%AA%8C%E8%AF%81%20%20%20%20%20%20%20%7C%20%E5%BC%80%E5%90%AF%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7C%20%E4%B8%80%E7%9B%B4%E5%BC%80%E5%90%AF%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7C%5Cn%7C%20%E7%99%BD%E5%90%8D%E5%8D%95%20%20%20%20%20%20%20%20%20%7C%20%E5%BC%80%E5%90%AF%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7C%20%E5%8A%A0%E7%BE%A4%E7%94%B3%E8%AF%B7%E7%99%BD%E5%90%8D%E5%8D%95%EF%BC%8C%E5%8F%AA%E9%9C%80%E7%AE%80%E5%8D%95%E5%AE%A1%E6%A0%B8%E5%8D%B3%E5%8F%AF%20%20%20%20%20%7C%5Cn%7C%20QQ%20%E7%BE%A4%20%20%20%20%20%20%20%20%20%20%7C%20876616313%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7C%20%E6%9C%89%E9%97%AE%E9%A2%98%E5%8F%AF%E4%BB%A5%E5%9C%A8%E7%BE%A4%E9%87%8C%E4%BA%A4%E6%B5%81%E6%88%96%E8%80%85%E8%89%BE%E7%89%B9%E7%BE%A4%E4%B8%BB%E6%8F%90%E9%97%AE%20%7C%5Cn%E6%A0%B8%E5%BF%83%E7%8E%A9%E6%B3%95%5Cn%5Cn%E5%8E%9F%E7%89%88%E7%94%9F%E5%AD%98%EF%BC%9A%20%E5%B0%86%E4%BF%9D%E6%8C%81%E4%B8%8E%E5%9B%BD%E9%99%85%E7%89%88%E5%90%8C%E6%AD%A5%E6%9B%B4%E6%96%B0%EF%BC%88%E5%B0%BD%E9%87%8F%EF%BC%89%EF%BC%8C%E4%B8%8E%E5%8E%9F%E7%89%88%E4%B8%80%E8%87%B4%E7%9A%84%E5%8E%9F%E7%89%88%E7%94%9F%E5%AD%98%E7%8E%A9%E6%B3%95%EF%BC%8C%E5%B9%B6%E4%B8%94%E7%94%B1%E6%AD%A4%E6%8B%93%E5%B1%95%E5%87%BA%E6%9B%B4%E5%A4%9A%E7%9A%84%E7%8E%A9%E6%B3%95%EF%BC%88%E5%9C%B0%E5%BD%A2%EF%BC%8C%E5%86%92%E9%99%A9%EF%BC%8C%E5%BD%A9%E8%9B%8B%E7%AD%89%EF%BC%89%E3%80%82%5Cn%E8%87%AA%E7%A0%94%E6%8F%92%E4%BB%B6%EF%BC%9A%20%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8F%92%E4%BB%B6%20%E5%85%A8%E9%83%A8%20%E7%94%B1%E8%85%90%E7%AB%B9%E8%87%AA%E7%A0%94%EF%BC%8C%E6%8F%90%E4%BE%9B%E6%9B%B4%E5%A4%9A%E7%9A%84%E7%8E%A9%E6%B3%95%EF%BC%8C%E6%9B%B4%E5%A5%BD%E7%9A%84%E4%BD%93%E9%AA%8C%E3%80%82%5Cn%5Cn%E8%87%AA%E7%A0%94%20UI%EF%BC%9A%20%E8%87%AA%E7%A0%94%20UI%EF%BC%8C%E5%9F%BA%E6%9C%AC%E4%B8%8A%E6%AF%8F%E4%B8%AA%E6%8F%92%E4%BB%B6%E9%83%BD%E6%9C%89UI%EF%BC%8C%E6%8F%90%E4%BE%9B%E6%9B%B4%E5%A5%BD%E7%9A%84%E4%BA%A4%E4%BA%92%E4%BD%93%E9%AA%8C%EF%BC%8C%E6%9B%B4%E5%A5%BD%E7%9A%84%E8%A7%86%E8%A7%89%E6%95%88%E6%9E%9C%EF%BC%8C%E6%9B%B4%E5%A5%BD%E7%9A%84%E6%93%8D%E4%BD%9C%E4%BD%93%E9%AA%8C%E3%80%82%5Cn%E9%A2%86%E5%9C%B0%2F%E9%A2%86%E5%9F%9F%E6%8F%92%E4%BB%B6%3A%20%20%E6%9C%8D%E5%8A%A1%E5%99%A8%E8%87%AA%E7%A0%94%E9%A2%86%E5%9F%9F%E6%8F%92%E4%BB%B6%EF%BC%8C%E9%80%9A%E8%BF%87%E5%8C%BA%E5%9D%97%E6%93%8D%E4%BD%9C%E9%A2%86%E5%9F%9F%EF%BC%8C%E5%8F%AF%E4%BB%A5%E5%AF%B9%E5%9B%9B%E5%91%A8%E6%8B%93%E5%B1%95%E4%B8%8E%E7%A7%BB%E9%99%A4%EF%BC%8C%E6%9C%89%E9%A2%86%E5%9F%9F%E4%BF%9D%E6%8A%A4%EF%BC%8C%E9%A2%86%E5%9F%9F%E6%98%BE%E7%A4%BA%EF%BC%8C%E6%B7%BB%E5%8A%A0%E9%A2%86%E5%9F%9F%E6%88%90%E5%91%98%EF%BC%8C%E6%88%90%E5%91%98%E6%9D%83%E9%99%90%E7%AD%89%E4%B8%80%E7%B3%BB%E5%88%97%E5%8A%9F%E8%83%BD%E3%80%82%5Cn%E7%BB%8F%E6%B5%8E%E6%8F%92%E4%BB%B6%3A%20%E7%94%B1%E4%BA%8E%E5%85%A8%E9%83%A8%E6%8F%92%E4%BB%B6%E9%83%BD%E7%94%B1%E6%88%91%E4%BB%AC%E8%87%AA%E7%A0%94%EF%BC%8C%E6%89%80%E4%BB%A5%E8%83%BD%E5%A4%9F%E6%9B%B4%E5%A5%BD%E6%8E%A7%E5%88%B6%E7%BB%8F%E6%B5%8E%EF%BC%8C%E6%9B%B4%E5%A5%BD%E7%9A%84%E5%B9%B3%E8%A1%A1%E6%B8%B8%E6%88%8F%EF%BC%8C%E6%9B%B4%E5%A5%BD%E7%9A%84%E6%8E%A7%E5%88%B6%E6%B8%B8%E6%88%8F%E8%8A%82%E5%A5%8F%E3%80%82%5Cn%E6%9B%B4%E5%A4%9A%E6%8F%92%E4%BB%B6%E8%AF%B7%E5%89%8D%E5%BE%80%20%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8F%92%E4%BB%B6%20%E9%98%85%E8%AF%BB%E3%80%82%5Cn%5Cn%5Cn%E7%A4%BE%E5%8C%BA%E5%BB%BA%E8%AE%BE%EF%BC%9A%20%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%B0%86%E4%BC%9A%E5%BB%BA%E8%AE%BE%E4%B8%80%E4%B8%AA%E7%A4%BE%E5%8C%BA%EF%BC%8C%E8%AE%A9%E7%8E%A9%E5%AE%B6%E5%8F%AF%E4%BB%A5%E5%9C%A8%E8%BF%99%E9%87%8C%E4%BA%A4%E6%B5%81%EF%BC%8C%E5%BB%BA%E8%AE%BE%EF%BC%8C%E5%88%86%E4%BA%AB%EF%BC%8C%E5%88%9B%E9%80%A0%EF%BC%8C%E4%B8%80%E8%B5%B7%E7%8E%A9%E8%80%8D%E3%80%82%E7%9B%AE%E5%89%8D%E5%B7%B2%E6%9C%89%E5%AE%98%E7%BD%91%EF%BC%8CQ%20%E7%BE%A4%EF%BC%8C%E7%99%BE%E7%A7%91%E7%AD%89%E5%9F%BA%E7%A1%80%E5%BB%BA%E8%AE%BE%E3%80%82%5Cn%5Cn%22%7D%5D"));</script><style>body,
+html {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	font-family: Arial, sans-serif;
+	background-color: #f3f3f3 !important;
+}
+
+.header {
+	height: 48px;
+	width: 100%;
+	display: flex;
+	background-color: #f3f3f3;
+}
+
+.header .title {
+	font-size: 24px;
+	font-weight: bold;
+	float: right;
+}
+
+.header .container {
+	padding: 4px 12px !important;
+	border-bottom: 1px solid #dadada;
+	align-items: center;
+}
+
+.header .extra {
+	display: flex;
+	justify-content: end;
+	flex: auto;
+	align-items: center;
+	padding: 0px 12px;
+}
+.header .extra a + a {
+	margin-left: 12px;
+}
+
+.wrapper {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	background-color: #f3f3f3;
+}
+
+.container {
+	max-width: 1200px;
+	min-width: 400px;
+	min-height: 100%;
+	margin: auto;
+	display: flex;
+	background-color: #ffffff;
+	padding: 0px !important;
+}
+
+.sidebar-trigger {
+	display: none;
+}
+
+.sidebar-wrapper {
+	flex: 0 180px;
+	padding: 0px 24px;
+	margin-top: 12px;
+	border-right: 1px solid #dadada;
+}
+
+.sidebar-wrapper hr {
+	margin-top: 4px !important;
+	margin-bottom: 4px !important;
+	border-top: 1px solid #dadada !important;
+}
+
+.sidebar-wrapper .links-group {
+	margin-bottom: 12px;
+}
+
+.sidebar-wrapper .links-group a {
+	font-weight: bold;
+}
+
+.sidebar-trigger {
+	display: block;
+	text-align: center;
+	cursor: pointer;
+	z-index: 99;
+	border: 1px solid #c1c1c1;
+	margin: 0px 4px;
+	padding: 2px 8px;
+	border-radius: 4px;
+}
+.sidebar-wrapper.active {
+	display: none;
+}
+
+.sidebar-trigger-wrapper {
+	flex: 0 74px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.sidebar {
+	margin-top: 12px;
+	text-wrap: nowrap;
+	overflow: auto;
+	min-width: 200px;
+	max-width: 400px;
+	top: 12px;
+	position: sticky;
+}
+
+.sidebar > a {
+	font-weight: bold;
+}
+
+.search {
+	flex: 0 240px;
+}
+
+.search-results {
+	display: none;
+	position: fixed;
+	top: 40px;
+	padding: 24px;
+	background: white;
+	border: 1px solid #dadada;
+	z-index: 9999;
+	max-width: 400px;
+}
+
+.search-results div {
+	padding-bottom: 12px;
+}
+
+.search-results div a {
+	display: block;
+	font-weight: bold;
+}
+
+.search-results div span {
+	font-size: 12px;
+}
+
+.markdown-wrapper {
+	flex: auto;
+	margin-bottom: 64px;
+	padding: 0px 24px;
+	width: 100%;
+}
+
+.markdown-body {
+	margin-bottom: 64px;
+}
+
+.sidebar details {
+	border-radius: 4px;
+	margin: 8px 0px;
+	display: flex;
+	gap: 4px;
+}
+
+@media (max-width: 990px) {
+	.sidebar-wrapper {
+		display: none;
+		position: fixed;
+		z-index: 99;
+		background: white;
+		border-radius: 4px;
+		padding: 12px;
+		margin-left: 12px;
+		box-shadow: 0 0 8px #cbcbcb;
+		border-right: none !important;
+		min-width: 200px;
+	}
+	.sidebar-wrapper.active {
+		display: block;
+	}
+
+	.markdown-wrapper {
+		padding: 0px 4px !important;
+	}
+
+	.container {
+		padding: 0px !important;
+	}
+
+	/** 如果内容不够长的话，在小屏幕中不会撑满屏幕，这里强制撑满 */
+	body .header .container,
+	body .content .container {
+		width: 100%;
+	}
+}
+
+details details {
+	padding-left: 18px;
+}
+
+summary {
+	font-weight: bold;
+	cursor: pointer;
+}
+
+details a {
+	margin-left: 16px;
+	color: #1890ff;
+}
+
+details > summary::before {
+	content: '+';
+	display: inline-block;
+	width: 6px;
+	margin-right: 4px;
+}
+
+details[open] > summary::before {
+	content: '-';
+	display: inline-block;
+	width: 6px;
+	margin-right: 4px;
+}
+</style></head>
+	<body>
+		<div class="header">
+			<div class="wrapper">
+				<div class="container">
+					<div class="sidebar-trigger-wrapper">
+						<div class="sidebar-trigger">目录 ≡</div>
+					</div>
+
+					<div class="search">
+						<span class="search-results" tabindex="1"></span>
+						<input placeholder="搜索文章" id="search-input">
+						<button id="search-btn">搜索</button>
+					</div>
+
+					<div class="extra"><a href="https://mclds.com/" target="_blank" style="">光梦官网</a></div>
+				</div>
+			</div>
+		</div>
+		<div class="content">
+			<div class="wrapper">
+				<div class="container">
+					<div class="sidebar-wrapper">
+						<div class="extra"></div>
+						<div>目录内容</div>
+						<hr>
+						<div class="sidebar">
+							<div class="root-folder" open=""><a href="/index.html">光梦百科</a></div>
+						<details data-folder="百科" open=""><summary>百科</summary><a href="/dist/服务器插件.html">服务器插件</a></details></div>
+					</div>
+					<div class="markdown-wrapper">
+						<div class="markdown-body"><h1>服务器插件</h1>
+</div>
+						<div class="footer"><div>
+  <hr>
+  <p>powered by <a href="https://github.com/enncy/easy-wiki"> easy-wiki </a></p>
+  <p>更新于：<span class="footer-time">2024/7/15 14:11:32</span></p>
+  <p>创建于：<span class="footer-time">2024/7/14 22:28:37</span></p>
+  <script>
+      window.addEventListener("load",()=>{
+          document.querySelectorAll(".footer-time").forEach((el)=>{
+            el.innerText = new Date(el.innerText).toLocaleString("zh-CN").replace(/\//g,'-')
+          })
+      })
+  </script>
+</div>
+</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script>
+			window.addEventListener('load', () => {
+				document.querySelector('.sidebar-trigger').addEventListener('click', () => {
+					document.querySelector('.sidebar-wrapper').classList.toggle('active');
+				});
+
+				document.querySelector('.search-results')?.addEventListener('blur', (e) => {
+					// 设置延迟否则无法点击链接
+					setTimeout(() => {
+						document.querySelector('.search-results').style.display = 'none';
+					}, 200);
+				});
+
+				document.querySelector('#search-btn').addEventListener('click', () => {
+					document.querySelector('#search-input').value = document.querySelector('#search-input').value.trim();
+					const searchInput = document.querySelector('#search-input');
+					const results = document.querySelector('.search-results');
+
+					results.style.display = 'block';
+					results.innerHTML = '';
+					results.focus();
+
+					const readme_info = (__ewiki_files_info__ || []).find(
+						(info) => info.markdown_context.is_readme_file === true
+					);
+
+					let has_searched = false;
+
+					for (const info of __ewiki_files_info__ || []) {
+						/** @type {string} */
+						const content = (new DOMParser().parseFromString(info.text || '', 'text/html').body.textContent || '')
+							.replace(/\n/g, '')
+							.replace(/ +/g, ' ');
+						/** @type {string} */
+						const keyword = searchInput.value;
+						const index = content.indexOf(keyword);
+						if (index !== -1) {
+							has_searched = true;
+							const part1 = content.slice(0, index);
+							const part2 = content.slice(index + keyword.length, content.length);
+							const div = document.createElement('div');
+							const span = document.createElement('span');
+							span.innerHTML = part1.slice(0, 20) + `<mark>${keyword}</mark>` + part2.slice(0, 20) + '...';
+							const a = document.createElement('a');
+							a.href = `${readme_info.markdown_context.metadata.sidebar_url_base}/${info.dest}`;
+							a.innerText = info.filename;
+
+							div.appendChild(a);
+							div.appendChild(span);
+							results.appendChild(div);
+						}
+					}
+
+					if (has_searched === false) {
+						results.innerHTML = '没有找到相关文章';
+					}
+				});
+			});
+		</script>
+	
+
+</body></html>
