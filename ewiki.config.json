@@ -9,14 +9,14 @@
   "markdown_mount": ".markdown-body",
   "markdown_it_config": {},
   "server": {
-    "port": 3019,
+    "port": 3020,
     "base_url": "/"
   },
   "extra_widget_plugin": {
     "header_links": [
       {
-        "text": "光梦官网",
-        "href": "https://mclds.com/"
+        "text": "官网->",
+        "href": "https://mclds.com"
       }
     ],
     "sidebar_links_group": [],

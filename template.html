@@ -5,9 +5,9 @@
 		<meta
 			name="viewport"
 			content="width=device-width, initial-scale=1.0"
-		/>
+		/>	
+		<link rel="icon" href="/favicon.png">
 		<title>光梦百科 - 光梦服务器</title>
-        <link rel="icon" href="/favicon.png" />
 	</head>
 	<body>
 		<div class="header">
@@ -74,10 +74,6 @@
 					results.innerHTML = '';
 					results.focus();
 
-					const readme_info = (__ewiki_files_info__ || []).find(
-						(info) => info.markdown_context.is_readme_file === true
-					);
-
 					let has_searched = false;
 
 					for (const info of __ewiki_files_info__ || []) {
@@ -96,7 +92,15 @@
 							const span = document.createElement('span');
 							span.innerHTML = part1.slice(0, 20) + `<mark>${keyword}</mark>` + part2.slice(0, 20) + '...';
 							const a = document.createElement('a');
-							a.href = `${readme_info.markdown_context.metadata.sidebar_url_base}/${info.dest}`;
+							const base_url = __ewiki_config__.base_url.endsWith('/')
+								? __ewiki_config__.base_url.slice(0, -1)
+								: __ewiki_config__.base_url;
+							a.href =
+								'/' +
+								String(base_url + '/' + info.dest)
+									.split('/')
+									.filter(Boolean)
+									.join('/'); 
 							a.innerText = info.filename;
 
 							div.appendChild(a);
