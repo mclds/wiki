@@ -1,16 +1,16 @@
 {
-  "sources": ["./**/*.md"],
   "plugins": ["./plugins/**/*.js", "ewiki"],
+  "sources_folder": "./sources",
   "output_folder": "./dist",
   "ignore_sources": ["./**/*.ignore.md", "./node_modules/**/*.md"],
   "ignore_plugins": ["./**/*.ignore.js", "./node_modules/**/*.js"],
-  "html_template": "./template.html",
+  "html_template": "./node_modules/ewiki/plugins/extra-widget/template.html",
   "styles": ["./style.css"],
   "markdown_mount": ".markdown-body",
   "markdown_it_config": {
-      	"xhtmlOut": false
+    "xhtmlOut": false
   },
-  "server": {
+  "watcher": {
     "port": 3020,
     "base_url": "/"
   },
@@ -21,7 +21,9 @@
         "href": "https://mclds.com"
       }
     ],
-    "sidebar_links_group": [],
-    "footer_template": "./templates/footer.html"
+    "markdown_footer_template": "./templates/footer.html",
+    "markdown_header_template": "./templates/header.html",
+    "head_template": "./templates/head.html",
+    "body_template": ""
   }
-} 
+}

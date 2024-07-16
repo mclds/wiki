@@ -1,0 +1,61 @@
+---ewiki-config---
+sidebar=丰富的UI界面
+create_at=2024/7/16 12:48:17
+update_at=2024/7/16 23:23:20
+---ewiki-config---
+
+
+
+
+
+
+
+
+# 丰富的UI界面
+
+::: info
+由 `itemsadder` 提供支持，通过 `双击F键` 打开服务器自定义菜单
+基本上每个插件都有 UI，提供更好的交互体验，更好的视觉效果，更好的操作体验。
+默认打开的是服务器菜单，但是通过指向不同方块，实体，可以打开插件定制页面
+:::
+ 
+| 方块 | 信息                                                                                                                                                                         | 实机图片                                                                                                                                                                                                                         |
+| ---- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 空气 | 显示系统自定义菜单，<br/> 传送门，领地菜单，个人菜单，个人设置等等<br> 个人菜单内容：<br> - 统计信息<br> - 藏品库存（可以存放你的藏品，也相当于一个额外背包）<br> - 领地列表 | <img  src=/assets/img/plugins/guis/dashboard/dashboard.png width=168> <img src=/assets/img/plugins/guis/dashboard/realm.png width=168>                                                                                           |
+| 木桶 | 显示自定义容器插件页面，有多个容器功能：<br>- 出售商店 <br>- 收购商店 <br>- 随机商店 <br>- 权限箱子（箱子锁） <br/> 详情请查看 [自定义容器](../服务器插件/3_自定义容器.md)                     | <img src=/assets/img/plugins/guis/custom-container/type.png width=256> <br/> <img src=/assets/img/plugins/guis/custom-container/lore.png width=256> <br/> <img src=/assets/img/plugins/guis/custom-container/sgsd.png width=256> |
+| 玩家 | 显示玩家个人信息页面，可以对玩家进行各种互动操作：<br/>好友添加，统计查看，藏品查看，领地查看， <br/> 基础功能（传送，交易，对话）等等                                       | <img src=/assets/img/plugins/guis/dashboard/player_info.png width=168>                                                                                                                                                           |
+
+> **对部分原版物品做出了一些支持，手持以下物品屏幕上方将会出现特殊信息：**
+
+| 物品     | 信息                                       | 实机图片                                                                                                                           |
+| -------- | ------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------- |
+| 空手     | 显示玩家金币，东南西北方位，以及领地信息   | <img src=/assets/img/plugins/hud/normal.png width=300>                                                                             |
+| 指南针   | 显示世界坐标，方位等信息                   | <img src=/assets/img/plugins/hud/compass.png width=300>                                                                            |
+| 望远镜   | 显示当前望远镜指向方块的信息，以及生物信息 | <img src=/assets/img/plugins/hud/telescope_tree.png width=300> <br/> <img src=/assets/img/plugins/hud/telescope_pig.png width=300> |
+| 回溯指针 | 显示死亡坐标精确位置                       | 无                                                                                                                                 |
+
+> **对聊天区域进行了优化，可以在名字前面显示玩家的头像，方便辨认**
+
+ <img src=/assets/img/plugins/hud/chat.png width=256>
+
+> **对微软表情做了优化，大部分表情都可以正常显示：**
+
+<img src=/assets/img/plugins/hud/emoji.png width=256>
+
+牌子上的表情默认全黑，通过白色染料可以变成正常显示，还可以使用荧光染料对表情进行高亮显示（荧光对文本也可以高亮）
+
+<img src=/assets/img/plugins/hud/rl.png width=256> 
+<hr/>
+ 
+<img src=/assets/img/plugins/hud/sign.png width=256>
+<img src=/assets/img/plugins/hud/sign_white.png width=256>
+<img src=/assets/img/plugins/hud/sign_light.png width=256>
+
+> **对原版各种容器页面做出优化（来源于网络），实例，更多页面内容请前往游戏查看。**
+
+<img src=/assets/img/plugins/guis/containers/chest.png width=256>
+<img src=/assets/img/plugins/guis/containers/crafting_table.png width=256>
+<img src=/assets/img/plugins/guis/containers/crafter.png width=256>
+<img src=/assets/img/plugins/guis/containers/blast_furnace.png width=256>
+<img src=/assets/img/plugins/guis/containers/enchanting_table.png width=256>
+<img src=/assets/img/plugins/guis/containers/smithing.png width=256>
