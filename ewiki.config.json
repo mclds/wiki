@@ -7,7 +7,9 @@
   "html_template": "./template.html",
   "styles": ["./style.css"],
   "markdown_mount": ".markdown-body",
-  "markdown_it_config": {},
+  "markdown_it_config": {
+      	"xhtmlOut": false
+  },
   "server": {
     "port": 3020,
     "base_url": "/"
