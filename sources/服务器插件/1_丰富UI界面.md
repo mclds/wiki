@@ -1,8 +1,9 @@
 ---ewiki-config---
 sidebar=丰富的UI界面
 create_at=2024/7/16 12:48:17
-update_at=2024/7/17 10:29:17
+update_at=2024/7/17 20:26:39
 ---ewiki-config---
+
 
 
 
@@ -29,7 +30,7 @@ update_at=2024/7/17 10:29:17
 
 | 物品     | 信息                                       | 实机图片                                                                                                                           |
 | -------- | ------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------- |
-| 空手     | 显示玩家金币，东南西北方位，以及领地信息   | <img src=/assets/img/plugins/hud/normal.png width=300>                                                                             |
+| 空手     | 显示玩家金币，玩家当前朝向（东南西北），游戏时间，以及领地信息   | <img src=/assets/img/plugins/hud/normal.png width=300>                                                                             |
 | 指南针   | 显示世界坐标，方位等信息                   | <img src=/assets/img/plugins/hud/compass.png width=300>                                                                            |
 | 望远镜   | 显示当前望远镜指向方块的信息，以及生物信息 | <img src=/assets/img/plugins/hud/telescope_tree.png width=300> <br/> <img src=/assets/img/plugins/hud/telescope_pig.png width=300> |
 | 回溯指针 | 显示死亡坐标精确位置                       | 无                                                                                                                                 |
