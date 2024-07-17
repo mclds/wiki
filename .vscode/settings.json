@@ -1,5 +1,6 @@
 {
     "cSpell.words": [
         "ewiki"
-    ]
+    ],
+    "editor.wordBasedSuggestions": "off"
 }
