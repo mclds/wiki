@@ -1,9 +1,9 @@
 {
   "scripts": {
-    "save": "npx ewiki && git add . && git commit -m 'save' && git push origin"
+    "save": "git add . && git commit -m 'save' && git push origin"
   },
   "dependencies": {
-    "ewiki": "^0.0.50",
+    "ewiki": "^0.0.52",
     "markdown-it-anchor": "^9.0.1",
     "markdown-it-container": "^4.0.0"
   }
