@@ -1,6 +1,6 @@
 ---ewiki-config---
 create_at=7/14/2024, 7:44:26 PM
-update_at=2024/7/21 15:07:32
+update_at=2024/12/12 16:02:08
 sidebar=新手入门教程
 ---ewiki-config---
 
@@ -8,11 +8,12 @@ sidebar=新手入门教程
 
 
 
-
+ 
 
 # **新手入门教程**
 
-> 加`百科首页` 的QQ群 可获取全部资源（Java环境，启动器，整合包等）
+> 加`百科首页` 的QQ群 可获取全部资源（Java环境，启动器，整合包，包括光影以及常用模组）
+> 快速使用整合包请查看：[整合包使用教程](./1_pack_guide.md)
 
 ### 1.下载我的世界启动器
 > 以下排名不分先后
@@ -28,32 +29,32 @@ sidebar=新手入门教程
 > 目前 1.21 版本暂不支持，建议下载 1.20.6 版本
 
 
-![img](./assets/guide/login.png)
+![img](../assets/guide/login.png)
 
 ---
 
-![img](./assets/guide/download_1.png)
+![img](../assets/guide/download_1.png)
 
 ---
 
-![img](./assets/guide/download_2.png)
+![img](../assets/guide/download_2.png)
 
 ---
 
-![img](./assets/guide/star_1.png)
+![img](../assets/guide/star_1.png)
 
 ---
 
-![img](./assets/guide/star_2.png)
+![img](../assets/guide/star_2.png)
 
 ---
 
-![img](./assets/guide/star_3.png)
+![img](../assets/guide/star_3.png)
 
 ---
 
-![img](./assets/guide/input.png)
+![img](../assets/guide/input.png)
 
 ---
 
-![img](./assets/guide/enrty.png)  
+![img](../assets/guide/enrty.png)  
