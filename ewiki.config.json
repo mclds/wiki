@@ -1,17 +1,29 @@
 {
-  "plugins": ["./plugins/**/*.js", "ewiki"],
+  "plugins": [
+    "./plugins/**/*.js",
+    "./node_modules/ewiki/plugins/**/*.js"
+  ],
   "sources_folder": "./sources",
   "output_folder": "./dist",
-  "ignore_sources": ["./**/*.ignore.md", "./node_modules/**/*.md"],
-  "ignore_plugins": ["./**/*.ignore.js", "./node_modules/**/*.js"],
+  "ignore_sources": [
+    "./**/*.ignore.md",
+    "./**/*.ignore.png",
+    "./**/*.ignore.video",
+    "./node_modules/**/*.md"
+  ],
+  "ignore_plugins": [
+    "./**/*.ignore.js"
+  ],
   "html_template": "./node_modules/ewiki/plugins/extra-widget/template.html",
-  "styles": ["./style.css"],
+  "styles": [
+    "./style.css"
+  ],
   "markdown_mount": ".markdown-body",
   "markdown_it_config": {
     "xhtmlOut": false
   },
-  "watcher": {
-    "port": 3020,
+  "server": {
+    "port": 3019,
     "base_url": "/"
   },
   "extra_widget_plugin": {
@@ -21,6 +33,11 @@
         "href": "https://mclds.com"
       }
     ],
+    "folder_names": {
+      "1-教程": "教程",
+      "2-服务器插件": "服务器插件",
+      "3-可公开的情报": "可公开的情报"
+    },
     "markdown_footer_template": "./templates/footer.html",
     "markdown_header_template": "./templates/header.html",
     "head_template": "./templates/head.html",
