@@ -1,16 +1,14 @@
 ---ewiki-config---
 create_at=2024/7/27 15:24:43
-update_at=2024/12/12 16:02:08
+update_at=2024/12/26 22:00:00
 sidebar=整合包使用教程
 ---ewiki-config---
 
-
-
-
-
-
+ 
 
 # **整合包使用教程**
+
+> 整合包内容详情请看：[整合包详情](./2_pack_info.md)
 
 ## 1.获取资源
 
@@ -19,12 +17,12 @@ sidebar=整合包使用教程
 
 | 文件名                  | 描述                                                                        |
 | ----------------------- | --------------------------------------------------------------------------- |
-| `jdk-21.msi`            | Java 运行环境                                                               |
-| `PCL2.zip`        | PCL2 我的世界启动器压缩文件（感谢[龙腾猫跃](https://afdian.com/a/LTCat)大大开发的启动器！）<br> 内含多个常用模组以及光影 | 
+| `jdk-21-xxx.msi`            | Java 运行环境                                                               |
+| `光梦整合包-xxx.zip`        | PCL2 我的世界启动器压缩包（感谢[龙腾猫跃](https://afdian.com/a/LTCat)大大开发的启动器！）<br> 内含多个常用模组以及光影 | 
 
 ## 2.安装 JAVA 环境
 
-> 点击下载好的 `jdk-21.msi` 文件，按照提示安装 Java 运行环境。
+> 点击下载好的 `jdk-21-xxx.msi` 文件，按照提示安装 Java 运行环境。
 > 如果中途提示 `是否允许此应用对设备进行更改`，请点击 `是`。
 
 ![img](../assets/pack_guide/java-1.png)
@@ -37,11 +35,9 @@ sidebar=整合包使用教程
 
 ## 3.解压&启动整合包
 
-> 将下载好的 `PCL2.zip` 文件，移动到你的游戏目录下（例如：`D:/game`），并解压缩 。
+> 将下载好的 `光梦整合包-xxx.zip` 文件，移动到你的游戏目录下（例如：`D:/game`），并解压缩 。
 > 解压缩后，运行 `Plain Craft Launcher 2.exe` 文件，并启动游戏，等待文件补全后即可开始游玩。
 
-![img](../assets/pack_guide/pcl-1.png)
-![img](../assets/pack_guide/pcl-2.png)
 ![img](../assets/pack_guide/pcl-3.png)
 ![img](../assets/pack_guide/pcl-4.png)
 
