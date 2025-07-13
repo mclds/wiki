@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "save": "git add . && git commit -m 'save' && git push origin"
+    "save": "git add . && git commit -m 'save' && git push origin",
+    "build": "ewiki build"
   },
   "dependencies": {
     "ewiki": "^0.0.60",
