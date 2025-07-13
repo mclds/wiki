@@ -35,7 +35,7 @@
     ],
     "folder_names": {
       "1-教程": "教程",
-      "2-服务器插件": "服务器插件",
+      "2-服务器插件": "服务器特色",
       "3-可公开的情报": "可公开的情报"
     },
     "markdown_footer_template": "./templates/footer.html",
