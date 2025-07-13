@@ -4,7 +4,7 @@ update_at=2024/12/26 22:00:00
 sidebar=整合包使用教程
 ---ewiki-config---
 
- 
+ [<-返回主页目录](../index.md#目录)
 
 # **整合包使用教程**
 
@@ -51,3 +51,13 @@ sidebar=整合包使用教程
 
 ![img](../assets/pack_guide/kjfs.png)
  
+
+## 整合包详情
+ 
+ 光梦整合包 1.21
+> 基于 MC 1.21 + fabric 0.16.9 的整合包
+> 内置 `Complementary`，`photon` 光影
+
+模组列表：
+
+![img](../assets/mods.png)
