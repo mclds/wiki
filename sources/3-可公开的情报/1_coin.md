@@ -4,8 +4,7 @@ update_at=2024/12/26 21:57:57
 sidebar=金币情报
 ---ewiki-config---
 
-
- [<-返回主页目录](../index.md#目录)
+ [<-返回主页目录](../index.html#目录)
 
 ## 金币获取方法
 
