@@ -10,7 +10,7 @@ sidebar=百科首页
 <img style='width: 100%' src=./assets/screenshot/光梦LOGO.png>
  
 
-<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=114816387712005&bvid=BV1ZbGnzTEe1&cid=30915166485&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+<iframe style='width:100%' src="//player.bilibili.com/player.html?isOutside=true&aid=114816387712005&bvid=BV1ZbGnzTEe1&cid=30915166485&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
  
 
 ---
